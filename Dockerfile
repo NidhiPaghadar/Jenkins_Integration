@@ -2,7 +2,7 @@
 FROM tomcat:9.0-jdk8-openjdk
 
 # Copy the WAR file to the Tomcat's webapps directory
-COPY target/DemoCOMP367.war /usr/local/tomcat/webapps/
+COPY target/mywebapp.war /usr/local/tomcat/webapps/
 
 # Expose port 8080
 EXPOSE 8080
