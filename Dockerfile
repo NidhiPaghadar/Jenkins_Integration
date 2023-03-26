@@ -8,4 +8,4 @@ COPY target/mywebapp.war /usr/local/tomcat/webapps/
 EXPOSE 8081
 
 # Start the Tomcat server
-CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"]
